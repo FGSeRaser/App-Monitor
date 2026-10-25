@@ -35,11 +35,13 @@ Zeigt für jedes Programm in der Taskleiste die **CPU- und RAM-Auslastung in Pro
   - Overlay für einzelne Programme ausblenden
 - **Infobereich und Autostart:** Beim Schließen läuft App Monitor im Infobereich weiter. Optional startet es mit Windows (unsichtbar im Infobereich).
 
-## Bauen
+## Download
 
-1. ZIP **entpacken**.
-2. `App Monitor.sln` in Visual Studio 2019/2022 öffnen.
-3. Starten mit F5. Das Projekt nutzt .NET Framework 4.8 und keine NuGet-Pakete.
+Die fertige EXE gibt es unter [Releases](https://github.com/FGSeRaser/App-Monitor/releases).
+
+## Selbst bauen
+
+`App Monitor.sln` in Visual Studio 2019/2022 öffnen und mit F5 starten (.NET Framework 4.8, keine NuGet-Pakete).
 
 Die Einstellungen liegen unter `%AppData%\App Monitor\settings.json`.
 
